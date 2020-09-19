@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  <meta charset="UTF-8">
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }} – {{ site.description }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+<!-- <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">-->
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/navbar.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/" style="font-size: 29px;">kushwanthreddy blog</a>
+      <div class="nav justify-content-end">
+        <a class="nav-link text-black font-weight-bold" href="/about/">About</a>
+        </div></div>
+</nav>
+    <div class="main-content">
+      {{ content }}
+
+<footer class="site-footer">
+<p style="text-align: center; font-size: 29px;">ENJOY THE BLOG</p>
+<div style="text-align: center;"><strong>built by kushwanthreddy, hosted using GitHub Pages</strong></div>
+</footer>
+</div>
+</body>
+</html>

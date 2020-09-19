@@ -1,0 +1,18 @@
+title: kushwanthreddy blog
+
+description: Kushwanth Reddy Blog
+
+#baseurl: "https://blog.kushwanthreddy.com"
+baseurl: ""
+
+permalink: /:title/
+
+sass:
+  style: :expanded
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

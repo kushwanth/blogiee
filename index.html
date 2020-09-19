@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<header class="page-header">
+      <h1 class="project-name">WELCOME TO MY BLOG</h1>
+</header>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="btn">
+
+      <h1>{{ post.title }}</h1>
+
+      <div class="entry">
+        {{ post.description }}
+      </div>
+<br/>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more" style="font-size: 20px;">Read More &#8594;</a>
+    </article>
+  {% endfor %}
+</div>
