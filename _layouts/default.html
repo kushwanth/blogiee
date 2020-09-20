@@ -5,10 +5,24 @@
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }} – {{ site.description }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#157878">
-<!-- <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">-->
+  <link rel="icon" href="/logo.png" type="image/png">
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css" />
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/navbar.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="kushwanthreddy nloh">
+<link rel="apple-touch-icon" href="/logo.png">
+  <script type="application/javascript">
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/serviceworker.js', {
+            scope: '/'
+        }).then(function (registration) {
+            console.log('kushwanthreddy blog: ServiceWorker registration successful with scope: ', registration.scope);
+        }, function (err) {
+            console.log('kushwanthreddy blog: ServiceWorker registration failed: ', err);
+        });
+    }
+</script>
 </head>
   <body>
     <nav class="navbar navbar-expand-lg">
@@ -23,7 +37,7 @@
 
 <footer class="site-footer">
 <p style="text-align: center; font-size: 29px;">ENJOY THE BLOG</p>
-<div style="text-align: center;"><strong>built by kushwanthreddy, hosted using GitHub Pages</strong></div>
+<div style="text-align: center;"><strong><span>built by kushwanthreddy</span>,<span>hosted using GitHub Pages</span></strong></div>
 </footer>
 </div>
 </body>
