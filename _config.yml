@@ -2,8 +2,7 @@ title: kushwanthreddy blog
 
 description: Kushwanth Reddy Blog
 
-#baseurl: "https://blog.kushwanthreddy.com"
-baseurl: ""
+baseurl: "https://blog.kushwanthreddy.com"
 
 permalink: /:title/
 
