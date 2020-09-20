@@ -2,6 +2,7 @@ var staticCacheName = "blogiee-v" + new Date().getTime();
 var filesToCache = [
     '/',
     'https://blog.kushwanthreddy.com/logo.png',
+    '/offline.html',
 ];
 
 // Cache on install
@@ -37,7 +38,7 @@ self.addEventListener("fetch", event => {
                 return response || fetch(event.request);
             })
             .catch(() => {
-                return caches.match('/');
+                return caches.match('/offline.html');
             })
     )
 });
