@@ -1,6 +1,5 @@
 var staticCacheName = "blogiee-v" + new Date().getTime();
 var filesToCache = [
-    '/',
     'https://blog.kushwanthreddy.com/logo.png',
     '/offline.html',
 ];
