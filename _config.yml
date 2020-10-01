@@ -15,5 +15,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-  - .well-known
-exclude: [assetlinks.json ,'.well-known']
+exclude: ['.well-known/assetlinks.json' ,'.well-known']
