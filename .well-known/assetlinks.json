@@ -1,0 +1,5 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target" : { "namespace": "android_app", "package_name": "com.kushwanthreddy.blog",
+                   "sha256_cert_fingerprints": ["91:8A:3E:62:F0:07:CF:8E:5F:F8:32:33:C4:BD:D4:26:7D:C0:B5:42:9E:A5:0D:91:D2:CC:D8:B9:6C:28:EC:B4"] }
+    }]
