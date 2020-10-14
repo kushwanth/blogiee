@@ -17,3 +17,6 @@ exclude:
   - CNAME
 
 include: [.well-known]
+include:
+  - ...
+  - _redirects
