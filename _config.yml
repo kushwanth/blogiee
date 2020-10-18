@@ -15,8 +15,8 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - '.well-known'
 
-include: [.well-known]
 include:
   - ...
   - _redirects
