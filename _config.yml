@@ -15,9 +15,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-  - .well-known/
-  - .well-known/assetlinks.json
 
 include:
-  - ...
+  - [.well-known]
   - _redirects
