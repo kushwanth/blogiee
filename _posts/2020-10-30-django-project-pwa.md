@@ -10,20 +10,22 @@ Django is an python based web application framework which is helpful for buildin
 
 #### Now we will build PWA
 Progressive Web Apps(PWA’s), are a type of application that is developed using web technologies and can be installed on any device like a traditional application. We will build PWA for using a PWA library. lets first install it
-```
+
+```python
 # installing Django pwa
 pip3 install django-pwa
 ```
 
 Add the PWA library to installed apps in settings file
-```
+
+```python
 # adding pwa to installed apps
 'pwa',
 ```
 
 Now we will configure PWA details from settings file, Add the below at last code in settings.py file
 
-```
+```python
 PWA_APP_NAME = 'geeksforgeeks'
 PWA_APP_DESCRIPTION = "GeeksForGeeks PWA"
 PWA_APP_THEME_COLOR = '#000000'
@@ -59,7 +61,7 @@ We have already added PWA blocks to our templates, So finaly we built our pwa bu
 
 Now go to your Django Projects base template and add following tags
 
-```
+```python
 {% load pwa %}
 <!DOCTYPE html>
 <html>
@@ -75,7 +77,7 @@ Now go to your Django Projects base template and add following tags
 
 Now go to urls.py file of your django project and add PWA urls
 
-```
+```python
 from django.contrib import admin
 from django.urls import path, include, re_path
 from django.conf import settings
