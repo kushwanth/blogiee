@@ -59,14 +59,14 @@ PWA_APP_LANG = 'en-US'
 
 We have already added PWA blocks to our templates, So finaly we built our pwa but we got one last thing to do.
 
-Now go to your Django Projects base template and add following tags, add 'load' before pwa in the first line and make it executable
+Now go to your Django Projects base template and add following tags, add 'load pwa' block before pwa in the first line and make it executable and progressive_web_app_meta block in head tagds
 
-```python
-{% pwa %}
+```html
+load pwa
 <!DOCTYPE html>
 <html>
 <head>
-{% progressive_web_app_meta %}
+progressive_web_app_meta
 <!-- your meta, style and script tags -->
 </head>
 <body>
