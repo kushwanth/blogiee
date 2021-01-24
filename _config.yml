@@ -9,6 +9,9 @@ permalink: /:title/
 sass:
   style: :expanded
 
+gems:
+  - jekyll-redirect-from
+
 exclude:
   - Gemfile
   - Gemfile.lock
