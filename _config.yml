@@ -9,7 +9,7 @@ permalink: /:title/
 sass:
   style: :expanded
 
-gems:
+plugins:
   - jekyll-redirect-from
 
 exclude:
