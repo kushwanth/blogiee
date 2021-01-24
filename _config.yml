@@ -21,4 +21,3 @@ exclude:
 
 include:
   - .well-known/assetlinks.json
-  - _redirects
