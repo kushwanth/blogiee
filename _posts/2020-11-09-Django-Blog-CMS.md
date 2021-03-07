@@ -4,7 +4,7 @@ title:  "Blog CMS using Django"
 description: "Building Blog type CMS using Django"
 date:   2020-11-09
 ---
-### The following tutorials written by me at GeeksForGeeks will help you to build Blog CMS using Django
+### The following tutorials written by me at [GeeksForGeeks](https://www.geeksforgeeks.org/) will help you to build Blog CMS using Django
 
 #### - [Building Blog CMS (Content Management System) with Django](https://www.geeksforgeeks.org/how-to-build-progressive-web-application-and-submit-it-to-the-play-store/)
 
